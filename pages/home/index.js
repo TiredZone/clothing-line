@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div>
             <IntroSection
-                title="Sommaire:"
+                title="Old But Gold:"
                 image="media/images/intro-picture.png"
                 content={
                     <div className="content is-large pt-1" data-aos="fade-right">
