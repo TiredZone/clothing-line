@@ -4,10 +4,14 @@ const IntroSection = ({ title, subtitle, image, content }) => {
         <section className="hero is-fullheight has-font-footlight">
             <div className="hero-body is-clipped">
                 <div className="container">
+                    <div className="columns is-centered">
+                        <div className="column is-flex is-justify-content-center">
+                            <h1 className="title is-1 has-text-hgold">{title}</h1>
+                        </div>
+                    </div>
                     <div className="py-6 is-hidden-desktop" />
                     <div className="columns is-vcentered">
                         <div className="column has-text-centered-mobile" data-aos="fade-right">
-                            <h1 className="title has-text-hgold is-2 mb-5">{title}</h1>
                             <h1 className="subtitle has-text-white is-4">{subtitle}</h1>
                             {content}
                         </div>
