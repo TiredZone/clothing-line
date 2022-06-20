@@ -4,7 +4,8 @@
 
 @font-face {
     font-family: 'FootlightMTLight';
-    src: url('../../public/media/fonts/FootlightMTLight.ttf');
+    src: url('media/fonts/FootlightMTLight.ttf') format('opentype');
+    font-display: swap;
 }
 
 
