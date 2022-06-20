@@ -1,7 +1,20 @@
 // import your fonts here and create a font-face rule for them
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Montserrat:wght@300;400;700&family=PT+Mono&display=swap');
 
+@font-face {
+    font-family: 'FootlightMTLight';
+    src: url('../../public/media/fonts/FootlightMTLight.ttf');
+}
+
+
+.has-font-footlight {
+    font-family: 'FootlightMTLight', sans-serif;
+}
+
+.has-font-roboto{
+    font-family: 'Roboto', sans-serif;
+}
 
 .has-font-airborne {
     font-family: 'Airborne', sans-serif;

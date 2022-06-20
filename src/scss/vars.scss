@@ -3,12 +3,17 @@
 $hpurple: #bf9dff;
 $hblue: #72ddf7;
 $hdark: #000000;
+$hdarkred: #6f1b2b; 
+$hgold: #d9b065;
 
 $hgra1: linear-gradient(90deg, $hpurple 0%, $hblue 100%);
 
 $hcolors: (
     hpurple: $hpurple,
     hblue: $hblue,
+    hdark: $hdark,
+    hdarkred: $hdarkred,
+    hgold: $hgold
 );
 
 $hgras: (

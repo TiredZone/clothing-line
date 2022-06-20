@@ -1,101 +1,71 @@
-import Head from 'next/head';
-
-import { useState, useEffect } from 'react';
-
-import ExampleModal from 'src/components/commons/modal/example-modal';
-
-import { useSelector, useDispatch } from 'react-redux';
-
-import { open_modal } from 'src/redux/actions/modalActions';
-
-import { Store as NotificationsStore } from 'react-notifications-component';
-import { infoNotification } from 'src/static/notifications';
-
-import appConfig from 'src/static/app.config';
-
-const { appName, appVersion } = appConfig;
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable @next/next/no-img-element */
+import { getLayout as getPageTitleLayout } from 'src/layouts/page-title';
+import { getLayout as getMainLayout } from 'src/layouts/main';
+import IntroSection from 'src/components/intro-section';
+import Router from 'next/router';
 
 const Home = () => {
-    // reducers
-    const { exampleReducer } = useSelector(state => state);
-
-    const dispatch = useDispatch();
-
-    const [msg, setMsg] = useState(exampleReducer.storage);
-
-    const handleNotificationClick = () => {
-        NotificationsStore.addNotification(infoNotification('It includes notifications!! '));
-    };
-
-    const handleModalClick = () => {
-        dispatch(open_modal({ modalName: 'exampleModal', modalData: { msg: 'It includes modals as well 🙂' } }));
-    };
-
-    const handleSetVarClick = () => {
-        const items = ['apple', 'banana', 'orange', 'grape', 'pear'];
-        dispatch({ type: 'SET_VAR', payload: items[Math.floor(Math.random() * items.length)] });
-    };
-
-    useEffect(() => {
-        setMsg(exampleReducer.storage);
-    }, [exampleReducer.storage]);
-
     return (
-        <>
-            <Head>
-                <title>{appName} | home</title>
-            </Head>
-            <ExampleModal />
-
-            <div style={{ height: '100vh', display: 'grid', placeItems: 'center' }}>
-                <div className="box has-background-hblue resize-manager">
-                    <h1 className="title has-text-white has-text-centered mb-6">
-                        Orcania Next js template v{appVersion}
-                    </h1>
-                    <h2 className="subtitle has-text-white has-text-centered has-text-justified">
-                        Build apps faster with pre builded components, added libraries, and structured folders.
-                    </h2>
-
-                    <div className="columns is-marginless">
-                        <div className="column">
-                            <button className="button is-fullwidth" type="button" onClick={handleNotificationClick}>
-                                <span className="icon has-text-dark is-size-4">
-                                    <i className="fa-solid fa-robot-astromech" />
-                                </span>
-                            </button>
-                        </div>
-                        <div className="column">
-                            <button className="button is-fullwidth" type="button" onClick={handleModalClick}>
-                                <span className="icon has-text-dark is-size-4">
-                                    <i className="fa-solid fa-user-bounty-hunter" />
-                                </span>
-                            </button>
-                        </div>
-                        <div className="column">
-                            <button className="button is-fullwidth" type="button" onClick={handleSetVarClick}>
-                                <span className="icon has-text-dark is-size-4">
-                                    <i className="fa-solid fa-bat" />
-                                </span>
-                            </button>
-                        </div>
-                        <div className="column">
-                            <button className="button is-fullwidth" type="button">
-                                <span className="icon has-text-dark is-size-4">
-                                    <i className="fa-solid fa-broom-ball" />
-                                </span>
-                            </button>
-                        </div>
+        <div>
+            <IntroSection
+                title="Sommaire:"
+                image="media/images/intro-picture.png"
+                content={
+                    <div className="content is-large pt-1" data-aos="fade-right">
+                        <ul className="has-text-hdarkred">
+                            <li>Introduction sur l&apos;art nouveau</li>
+                            <li>Introduction sur ma collection</li>
+                            <li>Moodboard</li>
+                            <li>Inspiration</li>
+                            <li>Adn</li>
+                            <li>Plan de collection</li>
+                            <li>Défilé</li>
+                            <li>Détails de mode</li>
+                            <li>Outfit inspiration</li>
+                        </ul>
                     </div>
+                }
+            />
+            <hr className="is-hdarkred" />
+            <section className="section has-font-footlight" data-aos="fade-up">
+                <div className="container">
+                    <div className="columns is-centered">
+                        <div className="column is-flex is-justify-content-center">
+                            <figure className="image is-256x256 is-clickable">
+                                <img
+                                    src="media/images/art-nouveau.jpg"
+                                    alt="Intro"
+                                    style={{ borderRadius: '20px' }}
+                                    onClick={() => Router.push('/intro-art-nouveau')}
+                                />
 
-                    <div className="pt-6">
-                        <h1 className="subtitle has-text-white has-text-centered ">
-                            <b>reducer storage:</b> <span className="animate__animated animate__fadeInDown">{msg}</span>
-                        </h1>
+                                <figcaption className="has-text-hdarkred has-text-centered">
+                                    <h1 className="title is-4 pt-4">Introduction sur l&apos;art nouveau</h1>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div className="column is-flex is-justify-content-center">
+                            <figure className="image is-256x256 is-clickable">
+                                <img
+                                    src="media/images/collection.png"
+                                    alt="Intro"
+                                    style={{ borderRadius: '20px', width: '235px' }}
+                                    onClick={() => Router.push('/my-collection')}
+                                />
+
+                                <figcaption className="has-text-hdarkred has-text-centered">
+                                    <h1 className="title is-4 pt-4">Introduction sur ma collection</h1>
+                                </figcaption>
+                            </figure>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </>
+            </section>
+        </div>
     );
 };
 
+Home.getLayout = page => getPageTitleLayout(getMainLayout(page), 'Home');
 export default Home;

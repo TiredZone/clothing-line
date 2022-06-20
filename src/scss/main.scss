@@ -2,6 +2,7 @@
 @import './color-helper';
 @import './gradient-helper';
 @import './z-index-helper';
+@import './customs.scss';
 @import './custom-notifications';
 @import './scroll-helper';
 @import './size-helper';
@@ -23,9 +24,14 @@ body,
     margin: 0;
     padding: 0;
 
+    // @extend .coolscroll;
+    // scroll-behavior: smooth;
+    // overflow: auto;
+}
+
+body {
     @extend .coolscroll;
     scroll-behavior: smooth;
-    overflow: auto;
 }
 
 #__next {

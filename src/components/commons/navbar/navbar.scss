@@ -1,0 +1,81 @@
+@import 'src/scss/vars';
+
+.custom-navbar {
+    transition: 0.5s;
+    border-bottom: 1px solid rgba($hdarkred, 0.1);
+    background: transparent;
+
+    .navbar-menu {
+        .navbar-item {
+            &:hover {
+                background: rgba(0, 0, 0, 0) !important;
+                color: $hdarkred !important;
+                h1 {
+                    color: $hdarkred !important;
+                }
+            }
+
+            &.is-active {
+                color: $hdarkred !important;
+                background-color: rgba($hdarkred, 0.1) !important;
+            }
+
+            &:focus {
+                background: rgba($hdark, 0) !important;
+            }
+        }
+    }
+
+    &.has-navbar-bg-color {
+        background: rgba($hgold, 0.95);
+        border-bottom: none !important;
+    }
+
+    &.is-hidden-up {
+        transform: translateY(-100%);
+    }
+}
+
+.navbar-dropdown {
+    background: rgba($hdarkred, 0.25) !important;
+    border: none;
+}
+
+.navbar-link {
+    background: transparent !important;
+    color: white;
+
+    &::after {
+        border-color: $hdarkred !important;
+    }
+
+    &:hover {
+        color: $hdarkred !important;
+    }
+}
+
+.navbar-item.has-dropdown {
+    &:hover .navbar-link {
+        color: $hdarkred !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar-menu {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100vh !important;
+        background: $hdark;
+        padding-top: 4rem;
+
+        z-index: -1;
+    }
+}
+
+.navbar.has-centered-menu {
+    .navbar-start {
+      flex-grow: 1;
+      justify-content: center;
+    }
+  }

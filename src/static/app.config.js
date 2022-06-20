@@ -1,5 +1,5 @@
 const appConfig = {
-    appName: 'Template',
+    appName: 'Old But Gold',
     appVersion: '1.0.0',
 };
 
