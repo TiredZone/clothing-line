@@ -10,7 +10,7 @@ const Slider = ({ data }) => {
         autoplay: true,
         pauseOnHover: false,
         resetProgress: false,
-        height: '45rem',
+        height: '35rem',
     };
 
     return (
@@ -29,9 +29,15 @@ const Slider = ({ data }) => {
                         <SplideTrack>
                             {data.map(slide => (
                                 <SplideSlide key={slide.id}>
-                                    <figure className="image">
-                                        <img src={slide.src} alt={slide.alt} style={{ borderRadius: '10px' }} />
-                                    </figure>
+                                    <div className="is-flex is-justify-content-center">
+                                        <figure className="image">
+                                            <img
+                                                src={slide.src}
+                                                alt={slide.alt}
+                                                style={{ borderRadius: '10px', width: '512px', height: '512px' }}
+                                            />
+                                        </figure>
+                                    </div>
                                 </SplideSlide>
                             ))}
                         </SplideTrack>
