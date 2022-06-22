@@ -21,7 +21,7 @@ const Home = () => {
                             <li>Inspiration</li>
                             <li>Adn</li>
                             <li>Plan de collection</li>
-                            <li>Défilé</li>
+                            <li>Défilé: dream it, do it</li>
                             <li>Détails de mode</li>
                             <li>Outfit inspiration</li>
                         </ul>
@@ -142,10 +142,10 @@ const Home = () => {
                                             src="media/images/défilé.png"
                                             alt="Intro"
                                             style={{ width: '400px' }}
-                                            onClick={() => Router.push('/défilé')}
+                                            onClick={() => Router.push('/dream-it')}
                                         />
                                         <figcaption className="has-text-hdarkred has-text-centered">
-                                            <h1 className="title is-4 pt-4">Défilé</h1>
+                                            <h1 className="title is-4 pt-4">Défilé: dream it, do it</h1>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -155,7 +155,7 @@ const Home = () => {
                                             src="media/images/mode.png"
                                             alt="Intro"
                                             style={{ width: '370px' }}
-                                            onClick={() => Router.push('/mode')}
+                                            onClick={() => Router.push('/details')}
                                         />
                                         <figcaption className="has-text-hdarkred has-text-centered">
                                             <h1 className="title is-4 pt-4">Détails de mode</h1>

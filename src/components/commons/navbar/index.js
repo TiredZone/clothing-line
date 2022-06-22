@@ -106,7 +106,7 @@ const Navbar = () => {
                             className={`navbar-item ${router.pathname === '/about' ? 'is-active' : ''}`}
                             onClick={handleNavbarItemClick}
                         >
-                            About + La Boutique
+                            About
                         </a>
                     </Link>
                     <Link href="/shop" passHref>
@@ -115,7 +115,7 @@ const Navbar = () => {
                             className={`navbar-item ${router.pathname === '/shop' ? 'is-active' : ''}`}
                             onClick={handleNavbarItemClick}
                         >
-                            Shop + Packaging
+                            Shop
                         </a>
                     </Link>
                     <Link href="/contact" passHref>
