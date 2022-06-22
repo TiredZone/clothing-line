@@ -61,6 +61,110 @@ const Home = () => {
                             </figure>
                         </div>
                     </div>
+                    <section className="section has-font-footlight" data-aos="fade-up">
+                        <div className="container">
+                            <div className="columns is-centered">
+                                <div className="column is-flex is-justify-content-center">
+                                    <figure className="image is-256x256 is-clickable">
+                                        <img
+                                            src="media/images/moodboard.png"
+                                            alt="Intro"
+                                            style={{ borderRadius: '20px' }}
+                                            onClick={() => Router.push('/moodboard')}
+                                        />
+                                        <figcaption className="has-text-hdarkred has-text-centered">
+                                            <h1 className="title is-4 pt-4">Moodboard</h1>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <hr className="is-hdarkred" style={{ marginRight: '-7rem', marginLeft: '-7rem' }} />
+                    <section className="section has-font-footlight" data-aos="fade-up">
+                        <div className="container">
+                            <div className="columns is-centered">
+                                <div className="column is-flex is-justify-content-center">
+                                    <figure className="image is-256x256 is-clickable">
+                                        <img
+                                            src="media/images/inspiration.png"
+                                            alt="Intro"
+                                            style={{ width: '330px' }}
+                                            onClick={() => Router.push('/inspiration')}
+                                        />
+                                        <figcaption className="has-text-hdarkred has-text-centered">
+                                            <h1 className="title is-4 pt-4">Inspiration</h1>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div className="column is-flex is-justify-content-center">
+                                    <figure className="image is-256x256 is-clickable">
+                                        <img
+                                            src="media/images/adn.png"
+                                            alt="Intro"
+                                            style={{ borderRadius: '20px' }}
+                                            onClick={() => Router.push('/adn')}
+                                        />
+                                        <figcaption className="has-text-hdarkred has-text-centered">
+                                            <h1 className="title is-4 pt-4">ADN</h1>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section className="section has-font-footlight" data-aos="fade-up">
+                        <div className="container">
+                            <div className="columns is-centered">
+                                <div className="column is-flex is-justify-content-center">
+                                    <figure className="image is-256x256 is-clickable">
+                                        <img
+                                            src="media/images/plan-de-collection.jpg"
+                                            alt="Intro"
+                                            style={{ borderRadius: '20px' }}
+                                            onClick={() => Router.push('/plan-de-collection')}
+                                        />
+                                        <figcaption className="has-text-hdarkred has-text-centered">
+                                            <h1 className="title is-4 pt-4">Plan de collection</h1>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <hr className="is-hdarkred" style={{ marginRight: '-7rem', marginLeft: '-7rem' }} />
+                    <section className="section has-font-footlight" data-aos="fade-up">
+                        <div className="container">
+                            <div className="columns is-centered">
+                                <div className="column is-flex is-justify-content-center">
+                                    <figure className="image is-256x256 is-clickable">
+                                        <img
+                                            src="media/images/défilé.png"
+                                            alt="Intro"
+                                            style={{ width: '400px' }}
+                                            onClick={() => Router.push('/défilé')}
+                                        />
+                                        <figcaption className="has-text-hdarkred has-text-centered">
+                                            <h1 className="title is-4 pt-4">Défilé</h1>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div className="column is-flex is-justify-content-center">
+                                    <figure className="image is-256x256 is-clickable">
+                                        <img
+                                            src="media/images/mode.png"
+                                            alt="Intro"
+                                            style={{ width: '370px' }}
+                                            onClick={() => Router.push('/mode')}
+                                        />
+                                        <figcaption className="has-text-hdarkred has-text-centered">
+                                            <h1 className="title is-4 pt-4">Détails de mode</h1>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </section>
         </div>

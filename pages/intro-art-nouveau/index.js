@@ -1,8 +1,8 @@
 import { getLayout as getPageTitleLayout } from 'src/layouts/page-title';
 import { getLayout as getMainLayout } from 'src/layouts/main';
 import Slider from 'src/components/slider';
-import Link from 'next/link';
 import { artNouveauData } from 'src/static/data-slider';
+import BackButton from 'src/components/back-button';
 
 const IntroArtNouveau = () => {
     return (
@@ -40,21 +40,8 @@ const IntroArtNouveau = () => {
                     </div>
                 </div>
             </section>
-            <div className="columns">
-                <div className="column is-flex is-justify-content-flex-end">
-                    <Link href="/" passHref>
-                        <button
-                            className="button is-large has-border-1-hdarkred-o-10 is-darkhred is-outlined is-rounded"
-                            type="button"
-                        >
-                            <span className="icon">
-                                <i className="fas fa-arrow-left" />
-                            </span>
-                            <span>Retour</span>
-                        </button>
-                    </Link>
-                </div>
-            </div>
+
+            <BackButton />
         </section>
     );
 };
