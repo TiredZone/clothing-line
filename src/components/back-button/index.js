@@ -1,10 +1,10 @@
 import Link from 'next/link';
 
-const BackButton = () => {
+const BackButton = ({ destination }) => {
     return (
         <div className="columns">
             <div className="column is-flex is-justify-content-flex-end">
-                <Link href="/" passHref>
+                <Link href={destination || '/home'} passHref>
                     <button
                         className="button hoverable is-large has-border-1-hdarkred-o-10 is-darkhred is-outlined is-rounded"
                         type="button"
