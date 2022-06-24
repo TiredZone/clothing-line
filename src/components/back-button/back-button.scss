@@ -1,0 +1,10 @@
+@import 'src/scss/vars.scss';
+
+.hoverable{
+
+    &:hover{
+    background-color: $hdarkred;
+    border-color: $hdarkred;
+    color: #fff !important;
+    }
+}

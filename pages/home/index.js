@@ -20,10 +20,10 @@ const Home = () => {
                             <li>Moodboard</li>
                             <li>Inspiration</li>
                             <li>Adn</li>
+                            <li>Planche</li>
                             <li>Plan de collection</li>
                             <li>Défilé: dream it, do it</li>
                             <li>Détails de mode</li>
-                            <li>Outfit inspiration</li>
                         </ul>
                     </div>
                 }
@@ -100,7 +100,7 @@ const Home = () => {
                                 <div className="column is-flex is-justify-content-center">
                                     <figure className="image is-256x256 is-clickable">
                                         <img
-                                            src="media/images/adn.png"
+                                            src="media/images/adn.jpeg"
                                             alt="Intro"
                                             style={{ borderRadius: '20px' }}
                                             onClick={() => Router.push('/adn')}

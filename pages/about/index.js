@@ -12,7 +12,7 @@ const About = () => {
                         <div className="content is-large">
                             <h1 className="title has-text-hgold">About</h1>
                             <hr className="has-text-hdarkred" />
-                            <p className="has-text-hdarkred">
+                            <p className="has-text-black">
                                 Marie-Danielle Maalouf, étudiante de stylisme à Esmod Pris. Ce qui fait ma passion pour
                                 le style et la mode. À ce jour, les achats d&apos;habits que j&apos;ai effectué me sont
                                 d&apos;une précieuse aide pour me positionner et clarifier mon point de vue et ma visée
