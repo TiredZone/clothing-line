@@ -119,6 +119,26 @@ const Home = () => {
                                 <div className="column is-flex is-justify-content-center">
                                     <figure className="image is-256x256 is-clickable">
                                         <img
+                                            src="media/images/planche.jpg"
+                                            alt="Intro"
+                                            style={{ borderRadius: '20px' }}
+                                            onClick={() => Router.push('/planche')}
+                                        />
+                                        <figcaption className="has-text-hdarkred has-text-centered">
+                                            <h1 className="title is-4 pt-4">Planche</h1>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <hr className="is-hdarkred" style={{ marginRight: '-7rem', marginLeft: '-7rem' }} />
+                    <section className="section has-font-footlight" data-aos="fade-up">
+                        <div className="container">
+                            <div className="columns is-centered">
+                                <div className="column is-flex is-justify-content-center">
+                                    <figure className="image is-256x256 is-clickable">
+                                        <img
                                             src="media/images/plan-de-collection.jpg"
                                             alt="Intro"
                                             style={{ borderRadius: '20px' }}
@@ -130,11 +150,6 @@ const Home = () => {
                                     </figure>
                                 </div>
                             </div>
-                        </div>
-                    </section>
-                    <hr className="is-hdarkred" style={{ marginRight: '-7rem', marginLeft: '-7rem' }} />
-                    <section className="section has-font-footlight" data-aos="fade-up">
-                        <div className="container">
                             <div className="columns is-centered">
                                 <div className="column is-flex is-justify-content-center">
                                     <figure className="image is-256x256 is-clickable">
