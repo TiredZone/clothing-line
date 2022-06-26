@@ -46,6 +46,16 @@ const data = [
     },
     {
         id: 4,
+        src: '/media/images/tissues/organza.png',
+        description: () => <p className="has-text-hdarkred">100 % organza de soie</p>,
+    },
+    {
+        id: 5,
+        src: '/media/images/tissues/mousseline.png',
+        description: () => <p className="has-text-hdarkred">100% polyester</p>,
+    },
+    {
+        id: 6,
         src: '/media/images/tissues/doublure-bemberg.png',
         description: () => (
             <p className="has-text-hdarkred">
@@ -54,16 +64,6 @@ const data = [
                 45% acétate
             </p>
         ),
-    },
-    {
-        id: 5,
-        src: '/media/images/tissues/organza.png',
-        description: () => <p className="has-text-hdarkred">100 % organza de soie</p>,
-    },
-    {
-        id: 6,
-        src: '/media/images/tissues/mousseline.png',
-        description: () => <p className="has-text-hdarkred">100% polyester</p>,
     },
 ];
 
@@ -89,7 +89,7 @@ const Jacket1 = () => {
                             <hr className="has-text-hdarkred" />
                             <div className="columns">
                                 <div className="column is-flex is-justify-content-center">
-                                    <figure className="image is-128x128">
+                                    <figure className="image" style={{ width: '256px', height: '256px' }}>
                                         <img src="/media/images/color-jacket-1.png" alt="" />
                                     </figure>
                                 </div>
@@ -117,10 +117,10 @@ const Jacket1 = () => {
                             </div>
                             <div className="columns pt-6">
                                 <div className="column">
-                                    <h1 className="title has-text-hgold">Doublures</h1>
+                                    <h1 className="title has-text-hgold">Tissus Secondaires</h1>
                                     <hr className="has-text-darkred" />
                                     <div className="columns">
-                                        {data.slice(3, 4).map(item => (
+                                        {data.slice(3, 5).map(item => (
                                             <div className="column" key={item.id}>
                                                 <img
                                                     src={item.src}
@@ -137,10 +137,10 @@ const Jacket1 = () => {
                             </div>
                             <div className="columns pt-6">
                                 <div className="column">
-                                    <h1 className="title has-text-hgold">Tissus secondaires</h1>
+                                    <h1 className="title has-text-hgold">Doublures</h1>
                                     <hr className="has-text-darkred" />
                                     <div className="columns">
-                                        {data.slice(4, 6).map(item => (
+                                        {data.slice(5, 6).map(item => (
                                             <div className="column" key={item.id}>
                                                 <img
                                                     src={item.src}
