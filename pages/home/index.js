@@ -19,11 +19,11 @@ const Home = () => {
                             <li>Introduction sur ma collection</li>
                             <li>Moodboard</li>
                             <li>Inspiration</li>
+                            <li>Détails de mode</li>
                             <li>Adn</li>
                             <li>Planche</li>
                             <li>Plan de collection</li>
                             <li>Défilé: dream it, do it</li>
-                            <li>Détails de mode</li>
                         </ul>
                     </div>
                 }
@@ -100,6 +100,25 @@ const Home = () => {
                                 <div className="column is-flex is-justify-content-center">
                                     <figure className="image is-256x256 is-clickable">
                                         <img
+                                            src="media/images/mode.png"
+                                            alt="Intro"
+                                            style={{ width: '310px' }}
+                                            onClick={() => Router.push('/details')}
+                                        />
+                                        <figcaption className="has-text-hdarkred has-text-centered">
+                                            <h1 className="title is-4 pt-4">Détails de mode</h1>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section className="section has-font-footlight" data-aos="fade-up">
+                        <div className="container">
+                            <div className="columns is-centered">
+                                <div className="column is-flex is-justify-content-center">
+                                    <figure className="image is-256x256 is-clickable">
+                                        <img
                                             src="media/images/adn.jpeg"
                                             alt="Intro"
                                             style={{ borderRadius: '20px' }}
@@ -113,6 +132,7 @@ const Home = () => {
                             </div>
                         </div>
                     </section>
+                    <hr className="is-hdarkred" style={{ marginRight: '-7rem', marginLeft: '-7rem' }} />
                     <section className="section has-font-footlight" data-aos="fade-up">
                         <div className="container">
                             <div className="columns is-centered">
@@ -129,13 +149,6 @@ const Home = () => {
                                         </figcaption>
                                     </figure>
                                 </div>
-                            </div>
-                        </div>
-                    </section>
-                    <hr className="is-hdarkred" style={{ marginRight: '-7rem', marginLeft: '-7rem' }} />
-                    <section className="section has-font-footlight" data-aos="fade-up">
-                        <div className="container">
-                            <div className="columns is-centered">
                                 <div className="column is-flex is-justify-content-center">
                                     <figure className="image is-256x256 is-clickable">
                                         <img
@@ -161,19 +174,6 @@ const Home = () => {
                                         />
                                         <figcaption className="has-text-hdarkred has-text-centered">
                                             <h1 className="title is-4 pt-4">Défilé: dream it, do it</h1>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                                <div className="column is-flex is-justify-content-center">
-                                    <figure className="image is-256x256 is-clickable">
-                                        <img
-                                            src="media/images/mode.png"
-                                            alt="Intro"
-                                            style={{ width: '370px' }}
-                                            onClick={() => Router.push('/details')}
-                                        />
-                                        <figcaption className="has-text-hdarkred has-text-centered">
-                                            <h1 className="title is-4 pt-4">Détails de mode</h1>
                                         </figcaption>
                                     </figure>
                                 </div>

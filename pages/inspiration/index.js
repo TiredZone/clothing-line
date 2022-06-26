@@ -11,7 +11,7 @@ const Inspiration = () => {
                     <div className="columns is-centered">
                         <div className="column is-flex is-justify-content-center">
                             <figure className="image is-256x256">
-                                <img src="media/images/moodboard-content.png" alt="" />
+                                <img src="media/images/inspiration-content.png" alt="" />
                             </figure>
                         </div>
                     </div>
