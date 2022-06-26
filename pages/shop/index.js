@@ -18,7 +18,7 @@ const Shop = () => {
                             <h1 className="title has-font-roboto has-text-hgold">Jackets</h1>
                             <hr className="has-text-hdarkred" />
                             <div className="columns">
-                                <div className="column">
+                                <div className="column is-narrow">
                                     <figure className="image is-clickable is-128x128">
                                         <img
                                             src="media/images/jacket-1.png"
@@ -45,6 +45,70 @@ const Shop = () => {
                                         />
                                     </figure>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="columns is-flex is-justify-content-center has-text-centered pt-6 mb-6">
+                    <div className="column is-narrow">
+                        <div className="content is-large">
+                            <h1 className="title has-font-roboto has-text-hgold">Tops</h1>
+                        </div>
+                        <hr className="has-text-hdarkred" />
+                        <div className="columns">
+                            <div className="column is-narrow">
+                                <figure className="image is-clickable is-128x128">
+                                    <img
+                                        src="media/images/top-1.png"
+                                        alt=""
+                                        onClick={() => router.push('/shop/top-1')}
+                                    />
+                                </figure>
+                            </div>
+                            <div className="column is-narrow">
+                                <figure className="image is-clickable is-128x128">
+                                    <img
+                                        src="media/images/top-2.png"
+                                        alt=""
+                                        onClick={() => router.push('/shop/top-2')}
+                                    />
+                                </figure>
+                            </div>
+                            <div className="column is-narrow">
+                                <figure className="image is-clickable is-128x128">
+                                    <img
+                                        src="media/images/top-3.png"
+                                        alt=""
+                                        onClick={() => router.push('/shop/top-3')}
+                                    />
+                                </figure>
+                            </div>
+                            <div className="column is-narrow">
+                                <figure className="image is-clickable is-128x128">
+                                    <img
+                                        src="media/images/top-4.png"
+                                        alt=""
+                                        onClick={() => router.push('/shop/top-4')}
+                                    />
+                                </figure>
+                            </div>
+                            <div className="column is-narrow">
+                                <figure className="image is-clickable is-128x128">
+                                    <img
+                                        src="media/images/top-5.png"
+                                        alt=""
+                                        onClick={() => router.push('/shop/top-5')}
+                                    />
+                                </figure>
+                            </div>
+                            <div className="column is-narrow">
+                                <figure className="image is-clickable is-128x128">
+                                    <img
+                                        src="media/images/top-6.png"
+                                        alt=""
+                                        onClick={() => router.push('/shop/top-6')}
+                                    />
+                                </figure>
                             </div>
                         </div>
                     </div>

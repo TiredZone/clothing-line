@@ -18,7 +18,7 @@ const data = [
                 <br />
                 26% viscose
                 <br />
-                4% elasthanne
+                4% élasthane
             </p>
         ),
     },

@@ -18,7 +18,7 @@ const data = [
                 <br />
                 26% viscose
                 <br />
-                4% elasthanne
+                4% élasthane
             </p>
         ),
     },
@@ -67,7 +67,7 @@ const data = [
     },
 ];
 
-const Jacket1 = () => {
+const Jacket2 = () => {
     const [showBaseTissue, setShowBaseTissue] = useState(false);
     const [showDoublure, setShowDoublure] = useState(false);
     const [showSecondaryTissue, setShowSecondaryTissue] = useState(false);
@@ -167,5 +167,5 @@ const Jacket1 = () => {
         </section>
     );
 };
-Jacket1.getLayout = page => getPageTitleLayout(getMainLayout(page), 'Jacket 1');
-export default Jacket1;
+Jacket2.getLayout = page => getPageTitleLayout(getMainLayout(page), 'Jacket 2');
+export default Jacket2;
