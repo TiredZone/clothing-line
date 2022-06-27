@@ -115,9 +115,19 @@ const Navbar = () => {
                             className={`navbar-item ${router.pathname === '/shop' ? 'is-active' : ''}`}
                             onClick={handleNavbarItemClick}
                         >
-                            Shop
+                            Clothes
                         </a>
                     </Link>
+                    <Link href="/accessories" passHref>
+                        <a
+                            role="button"
+                            className={`navbar-item ${router.pathname === '/accessories' ? 'is-active' : ''}`}
+                            onClick={handleNavbarItemClick}
+                        >
+                            Accessories
+                        </a>
+                    </Link>
+
                     <Link href="/contact" passHref>
                         <a
                             role="button"

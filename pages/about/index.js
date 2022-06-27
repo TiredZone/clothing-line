@@ -28,6 +28,32 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <section className="section">
+                <div className="container">
+                    <div className="columns is-centered">
+                        <div className="column is-4">
+                            <div className="box">
+                                <div className="content is-medium">
+                                    <p className="has-text-black is-italic">
+                                        “Luxury is in each details”
+                                        <br />
+                                        ~Hubert de Givenchy
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="column is-4">
+                            <div className="box">
+                                <div className="content is-medium">
+                                    <p className="has-text-black is-italic">
+                                        “The details are not the design. They make the design” ~Charles Eames
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <hr className="has-text-hdarkred" style={{ marginRight: '-7rem', marginLeft: '-7rem' }} />
             <section className="section">
                 <div className="container">
