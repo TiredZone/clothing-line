@@ -12,7 +12,7 @@ const data = [
         src: '/media/images/tissues/polyanide.png',
         description: () => (
             <p className="has-text-hdarkred">
-                polyanide
+                polyamide
                 <br />
                 65% polyester
                 <br />

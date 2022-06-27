@@ -51,7 +51,7 @@ const Jacket3 = () => {
                             <div className="columns">
                                 <div className="column is-flex is-justify-content-center">
                                     <figure className="image" style={{ width: '256px', height: '256px' }}>
-                                        <img src="/media/images/color-jacket-3.png" alt="" />
+                                        <img src="/media/images/color-jacket-5.png" alt="" />
                                     </figure>
                                 </div>
                             </div>

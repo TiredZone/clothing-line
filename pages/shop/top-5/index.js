@@ -9,7 +9,7 @@ import BackButton from 'src/components/back-button';
 const data = [
     {
         id: 1,
-        src: '/media/images/tissues/soie-de-cotton.png',
+        src: '/media/images/tissues/organza.png',
         description: () => (
             <p className="has-text-hdarkred">
                 organza de soie

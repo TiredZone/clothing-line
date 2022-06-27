@@ -90,7 +90,7 @@ const Pant = () => {
                             </div>
                             <div className="columns pt-6">
                                 <div className="column">
-                                    <h1 className="title has-text-hgold">Doublures</h1>
+                                    <h1 className="title has-text-hgold">Tissus secondaires</h1>
                                     <hr className="has-text-darkred" />
                                     <div className="columns">
                                         {data.slice(2, 3).map(item => (

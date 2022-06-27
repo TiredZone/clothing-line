@@ -38,7 +38,7 @@ const data = [
         src: '/media/images/tissues/georgette.png',
         description: () => (
             <p className="has-text-hdarkred">
-                crepe de georgette
+                crepe de crepe de georgette
                 <br />
                 100% polyester
             </p>

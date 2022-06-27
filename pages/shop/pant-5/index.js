@@ -45,7 +45,7 @@ const Pant1 = () => {
                     </div>
                     <div className="column">
                         <div className="content is-large">
-                            <h1 className="title has-text-hgold">Tissus</h1>
+                            <h1 className="title has-text-hgold">Tissus / Jewelry and Baleine</h1>
                             <hr className="has-text-hdarkred" />
                             <div className="columns">
                                 {data.map(item => (
