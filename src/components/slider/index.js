@@ -34,7 +34,7 @@ const Slider = ({ data }) => {
                                             <img
                                                 src={slide.src}
                                                 alt={slide.alt}
-                                                style={{ borderRadius: '10px', width: '512px', height: '512px' }}
+                                                style={{ borderRadius: '10px', width: slide.width || '512px' }}
                                             />
                                         </figure>
                                     </div>

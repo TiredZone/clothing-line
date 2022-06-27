@@ -1,10 +1,10 @@
-/* eslint-disable @next/next/no-img-element */
 /* eslint-disable jsx-a11y/interactive-supports-focus */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const animateCSS = (element, animation, prefix = 'animate__') =>
     // We create a Promise and return it
@@ -70,24 +70,27 @@ const Navbar = () => {
 
     return (
         <nav
-            className={`navbar has-font-roboto has-centered-menu custom-navbar is-fixed-top ${
+            className={`navbar has-font-roboto has-centered-menu custom-navbar is-fixed-top px-4 ${
                 bgColor ? 'has-navbar-bg-color' : ''
             } ${scrollingDown ? 'is-hidden-up' : ''}`}
             role="navigation"
             aria-label="main navigation"
         >
-            <a
-                role="button"
-                className={`navbar-burger has-text-white ${burgerActive ? 'is-active' : ''}`}
-                aria-label="menu"
-                aria-expanded="false"
-                data-target="navbarBasicExample"
-                onClick={handleHamburgerClick}
-            >
-                <span aria-hidden="true" />
-                <span aria-hidden="true" />
-                <span aria-hidden="true" />
-            </a>
+            <div className="navbar-brand">
+                <Image className="navbar-item py-2" src="/media/images/logo.png" width={64} height={64} />
+                <a
+                    role="button"
+                    className={`navbar-burger has-text-white ${burgerActive ? 'is-active' : ''}`}
+                    aria-label="menu"
+                    aria-expanded="false"
+                    data-target="navbarBasicExample"
+                    onClick={handleHamburgerClick}
+                >
+                    <span aria-hidden="true" />
+                    <span aria-hidden="true" />
+                    <span aria-hidden="true" />
+                </a>
+            </div>
             <div className={`navbar-menu ${mobileActive ? 'is-active animate__animated animate__fadeInLeft' : ''}`}>
                 {/* center menu */}
                 <div className="navbar-start">

@@ -10,10 +10,12 @@ const Home = () => {
     return (
         <div>
             <IntroSection
-                title="Old But Gold"
+                title="Marie-Danielle Maalouf"
+                subtitle="Fashion / Accessoires"
                 image="media/images/intro-picture.png"
                 content={
                     <div className="content is-large pt-1" data-aos="fade-right">
+                        <h2 className="has-text-hgold">Old But Gold</h2>
                         <ul className="has-text-hdarkred">
                             <li>Introduction sur l&apos;art nouveau</li>
                             <li>Introduction sur ma collection</li>
@@ -93,7 +95,7 @@ const Home = () => {
                                             onClick={() => Router.push('/inspiration')}
                                         />
                                         <figcaption className="has-text-hdarkred has-text-centered">
-                                            <h1 className="title is-4 pt-4">Inspiration</h1>
+                                            <h1 className="title is-4 pt-4">Inspiration de mode</h1>
                                         </figcaption>
                                     </figure>
                                 </div>

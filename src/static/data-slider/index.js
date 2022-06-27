@@ -3,11 +3,13 @@ export const artNouveauData = [
         id: 1,
         src: 'media/images/slider-pic-1.png',
         alt: 'Slider 1',
+        width: 512,
     },
     {
         id: 2,
         src: 'media/images/slider-pic-2.png',
         alt: 'Slider 2',
+        width: 512,
     },
     {
         id: 3,
@@ -18,6 +20,7 @@ export const artNouveauData = [
         id: 4,
         src: 'media/images/slider-pic-4.png',
         alt: 'Slider 4',
+        width: 512,
     },
     // {
     //     id: 5,
@@ -28,26 +31,31 @@ export const artNouveauData = [
         id: 6,
         src: 'media/images/slider-pic-6.png',
         alt: 'Slider 6',
+        width: 512,
     },
     {
         id: 7,
         src: 'media/images/slider-pic-7.png',
         alt: 'Slider 7',
+        width: 512,
     },
     {
         id: 8,
         src: 'media/images/slider-pic-8.png',
         alt: 'Slider 8',
+        width: 512,
     },
     {
         id: 9,
         src: 'media/images/slider-pic-9.png',
         alt: 'Slider 9',
+        width: 512,
     },
     {
         id: 10,
         src: 'media/images/slider-pic-10.png',
         alt: 'Slider 10',
+        width: 512,
     },
 ];
 
@@ -97,9 +105,9 @@ export const myCollectionData = [
         src: 'media/images/collection-pic-9.jpg',
         alt: 'Collection 9',
     },
-    {
-        id: 10,
-        src: 'media/images/collection-pic-10.jpg',
-        alt: 'Collection 10',
-    },
+    // {
+    //     id: 10,
+    //     src: 'media/images/collection-pic-10.jpg',
+    //     alt: 'Collection 10',
+    // },
 ];
