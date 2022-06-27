@@ -79,6 +79,52 @@ const About = () => {
                     </div>
                 </div>
             </section>
+            <section className="section">
+                <div className="container">
+                    <div className="columns has-text-centered">
+                        <div className="column">
+                            <div className="content is-large">
+                                <h1 className="title has-text-hgold">Shop Package</h1>
+                                <hr className="has-text-hdarkred" />
+                                <div className="columns">
+                                    <div className="column">
+                                        <figure className="image is-256x256">
+                                            <img src="media/images/shop-1.png" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div className="column">
+                                        <figure className="image is-256x256">
+                                            <img
+                                                style={{ borderRadius: '20px' }}
+                                                src="media/images/shop-2.png"
+                                                alt=""
+                                            />
+                                        </figure>
+                                    </div>
+                                    <div className="column">
+                                        <figure className="image is-256x256">
+                                            <img
+                                                style={{ borderRadius: '20px' }}
+                                                src="media/images/shop-3.jpg"
+                                                alt=""
+                                            />
+                                        </figure>
+                                    </div>
+                                    <div className="column">
+                                        <figure className="image is-256x256">
+                                            <img
+                                                style={{ borderRadius: '20px' }}
+                                                src="media/images/shop-4.jpg"
+                                                alt=""
+                                            />
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <section className="section">
                 <div className="container">
