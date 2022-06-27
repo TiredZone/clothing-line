@@ -21,7 +21,13 @@ const data = [
     {
         id: 2,
         src: '/media/images/tissues/mousseline.png',
-        description: () => <p className="has-text-hdarkred">100% polyester</p>,
+        description: () => (
+            <p className="has-text-hdarkred">
+                mousseline de soie
+                <br />
+                100% polyester
+            </p>
+        ),
     },
 ];
 
