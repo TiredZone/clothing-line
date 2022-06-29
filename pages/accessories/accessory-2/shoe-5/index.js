@@ -73,7 +73,7 @@ const Pant1 = () => {
             </div>
             <section className="section mt-6">
                 <div className="container">
-                    <BackButton destination="/shop" />
+                    <BackButton destination="./" />
                 </div>
             </section>
         </section>

@@ -42,7 +42,7 @@ const Pant1 = () => {
                             <div className="columns">
                                 <div className="column is-flex is-justify-content-center">
                                     <figure className="image" style={{ width: '128px', height: '128px' }}>
-                                        <img src="/media/images/shoe-1.png" alt="" />
+                                        <img src="/media/images/shoe-3.png" alt="" />
                                     </figure>
                                 </div>
                             </div>
@@ -73,7 +73,7 @@ const Pant1 = () => {
             </div>
             <section className="section mt-6">
                 <div className="container">
-                    <BackButton destination="/shop" />
+                    <BackButton destination="./" />
                 </div>
             </section>
         </section>

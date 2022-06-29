@@ -12,6 +12,17 @@ const data = [
         src: '/media/images/tissues/cuir.png',
         description: () => <p className="has-text-hdarkred">vrai cuir</p>,
     },
+    {
+        id: 2,
+        src: '/media/images/tissues/tulle.png',
+        description: () => (
+            <p className="has-text-hdarkred">
+                tulle souple
+                <br />
+                100% polyamide
+            </p>
+        ),
+    },
 ];
 
 const Pant1 = () => {
@@ -31,7 +42,7 @@ const Pant1 = () => {
                             <div className="columns">
                                 <div className="column is-flex is-justify-content-center">
                                     <figure className="image" style={{ width: '128px', height: '128px' }}>
-                                        <img src="/media/images/bag-5.png" alt="" />
+                                        <img src="/media/images/shoe-6.png" alt="" />
                                     </figure>
                                 </div>
                             </div>
@@ -62,7 +73,7 @@ const Pant1 = () => {
             </div>
             <section className="section mt-6">
                 <div className="container">
-                    <BackButton destination="/shop" />
+                    <BackButton destination="./" />
                 </div>
             </section>
         </section>

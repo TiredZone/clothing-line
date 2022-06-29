@@ -97,7 +97,7 @@ const Shop = () => {
                                     <img
                                         src="media/images/top-3.png"
                                         alt=""
-                                        style={{ height: '150px' }}
+                                        style={{ height: '200px' }}
                                         onClick={() => router.push('/shop/top-3')}
                                     />
                                 </figure>
@@ -107,7 +107,7 @@ const Shop = () => {
                                     <img
                                         src="media/images/top-4.png"
                                         alt=""
-                                        style={{ height: '150px' }}
+                                        style={{ height: '200px' }}
                                         onClick={() => router.push('/shop/top-4')}
                                     />
                                 </figure>
@@ -232,197 +232,6 @@ const Shop = () => {
                 <br />
                 <br />
                 <br />
-                <div className="columns is-flex is-justify-content-center has-text-centered pt-6 mb-6">
-                    <div className="column is-narrow">
-                        <div className="content is-large">
-                            <h1 className="title has-font-roboto has-text-hgold">Shoes</h1>
-                            <hr className="has-text-hdarkred" />
-                            <div className="columns">
-                                <div className="column is-narrow">
-                                    <figure className="image is-clickable is-64x64">
-                                        <img
-                                            src="media/images/shoe-1.png"
-                                            alt=""
-                                            onClick={() => router.push('/shop/shoe-1')}
-                                        />
-                                    </figure>
-                                </div>
-                                <div className="column is-narrow">
-                                    <figure className="image is-clickable is-64x64">
-                                        <img
-                                            src="media/images/shoe-2.png"
-                                            alt=""
-                                            onClick={() => router.push('/shop/shoe-2')}
-                                        />
-                                    </figure>
-                                </div>
-                                <div className="column is-narrow">
-                                    <figure className="image is-clickable is-64x64">
-                                        <img
-                                            src="media/images/shoe-3.png"
-                                            alt=""
-                                            onClick={() => router.push('/shop/shoe-3')}
-                                        />
-                                    </figure>
-                                </div>
-                                <div className="column is-narrow">
-                                    <figure className="image is-clickable is-64x64">
-                                        <img
-                                            src="media/images/shoe-4.png"
-                                            alt=""
-                                            onClick={() => router.push('/shop/shoe-4')}
-                                        />
-                                    </figure>
-                                </div>
-                                <div className="column is-narrow">
-                                    <figure className="image is-clickable is-64x64">
-                                        <img
-                                            src="media/images/shoe-5.png"
-                                            alt=""
-                                            onClick={() => router.push('/shop/shoe-5')}
-                                        />
-                                    </figure>
-                                </div>
-                                <div className="column is-narrow">
-                                    <figure className="image is-clickable is-64x64">
-                                        <img
-                                            src="media/images/shoe-6.png"
-                                            alt=""
-                                            onClick={() => router.push('/shop/shoe-6')}
-                                        />
-                                    </figure>
-                                </div>
-                                <div className="column is-narrow">
-                                    <figure className="image is-clickable is-64x64">
-                                        <img
-                                            src="media/images/shoe-7.png"
-                                            alt=""
-                                            onClick={() => router.push('/shop/shoe-7')}
-                                        />
-                                    </figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br />
-                <br />
-                <div className="columns is-flex is-justify-content-center has-text-centered pt-6 mb-6">
-                    <div className="column is-narrow">
-                        <div className="content is-large">
-                            <h1 className="title has-font-roboto has-text-hgold">Bags</h1>
-                            <hr className="has-text-hdarkred" />
-                            <div className="columns">
-                                <div className="column is-narrow">
-                                    <figure className="image is-clickable is-64x64">
-                                        <img
-                                            src="media/images/bag-1.png"
-                                            alt=""
-                                            onClick={() => router.push('/shop/bag-1')}
-                                        />
-                                    </figure>
-                                </div>
-                                <div className="column is-narrow">
-                                    <figure className="image is-clickable is-64x64">
-                                        <img
-                                            src="media/images/bag-2.png"
-                                            alt=""
-                                            onClick={() => router.push('/shop/bag-2')}
-                                        />
-                                    </figure>
-                                </div>
-                                <div className="column is-narrow">
-                                    <figure className="image is-clickable is-64x64">
-                                        <img
-                                            src="media/images/bag-3.png"
-                                            alt=""
-                                            onClick={() => router.push('/shop/bag-3')}
-                                        />
-                                    </figure>
-                                </div>
-                                <div className="column is-narrow">
-                                    <figure className="image is-clickable is-64x64">
-                                        <img
-                                            src="media/images/bag-4.png"
-                                            alt=""
-                                            onClick={() => router.push('/shop/bag-4')}
-                                        />
-                                    </figure>
-                                </div>
-                                <div className="column is-narrow">
-                                    <figure className="image is-clickable is-64x64">
-                                        <img
-                                            src="media/images/bag-5.png"
-                                            alt=""
-                                            onClick={() => router.push('/shop/bag-5')}
-                                        />
-                                    </figure>
-                                </div>
-                                <div className="column is-narrow">
-                                    <figure className="image is-clickable is-64x64">
-                                        <img
-                                            src="media/images/bag-6.png"
-                                            alt=""
-                                            onClick={() => router.push('/shop/bag-6')}
-                                        />
-                                    </figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br />
-                <br />
-                <div className="columns is-flex is-justify-content-center has-text-centered pt-6 mb-6">
-                    <div className="column is-narrow">
-                        <div className="content is-large">
-                            <h1 className="title has-font-roboto has-text-hgold">Accessories</h1>
-                            <hr className="has-text-hdarkred" />
-                            <div className="columns">
-                                <div className="column is-narrow">
-                                    <figure className="image is-64x64">
-                                        <img src="media/images/accessory-1.png" alt="" />
-                                    </figure>
-                                </div>
-                                <div className="column is-narrow">
-                                    <figure className="image is-64x64">
-                                        <img src="media/images/accessory-2.png" alt="" />
-                                    </figure>
-                                </div>
-                                <div className="column is-narrow">
-                                    <figure className="image is-64x64">
-                                        <img src="media/images/accessory-3.png" alt="" />
-                                    </figure>
-                                </div>
-                                <div className="column is-narrow">
-                                    <figure className="image is-64x64">
-                                        <img src="media/images/accessory-4.png" alt="" />
-                                    </figure>
-                                </div>
-                                <div className="column is-narrow">
-                                    <figure className="image is-64x64">
-                                        <img src="media/images/accessory-5.png" alt="" />
-                                    </figure>
-                                </div>
-                                <div className="column is-narrow">
-                                    <figure className="image is-64x64">
-                                        <img src="media/images/accessory-6.png" alt="" />
-                                    </figure>
-                                </div>
-                                <div className="column is-narrow">
-                                    <figure className="image is-64x64">
-                                        <img src="media/images/accessory-7.png" alt="" />
-                                    </figure>
-                                </div>
-                                <div className="column is-narrow">
-                                    <figure className="image is-64x64">
-                                        <img src="media/images/accessory-8.png" alt="" />
-                                    </figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
     );
