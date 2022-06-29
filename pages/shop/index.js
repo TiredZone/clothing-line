@@ -77,6 +77,7 @@ const Shop = () => {
                             <div className="column is-narrow">
                                 <figure className="image is-clickable is-128x128">
                                     <img
+                                        style={{ width: '120px', height: '120px' }}
                                         src="media/images/top-1.png"
                                         alt=""
                                         onClick={() => router.push('/shop/top-1')}
@@ -86,6 +87,7 @@ const Shop = () => {
                             <div className="column is-narrow">
                                 <figure className="image is-clickable is-128x128">
                                     <img
+                                        style={{ width: '120px', height: '120px' }}
                                         src="media/images/top-2.png"
                                         alt=""
                                         onClick={() => router.push('/shop/top-2')}
@@ -95,9 +97,9 @@ const Shop = () => {
                             <div className="column is-narrow">
                                 <figure className="image is-clickable is-128x128">
                                     <img
+                                        style={{ width: '100px', height: '170px' }}
                                         src="media/images/top-3.png"
                                         alt=""
-                                        style={{ height: '200px' }}
                                         onClick={() => router.push('/shop/top-3')}
                                     />
                                 </figure>
@@ -105,9 +107,9 @@ const Shop = () => {
                             <div className="column is-narrow">
                                 <figure className="image is-clickable is-128x128">
                                     <img
+                                        style={{ width: '100px', height: '170px' }}
                                         src="media/images/top-4.png"
                                         alt=""
-                                        style={{ height: '200px' }}
                                         onClick={() => router.push('/shop/top-4')}
                                     />
                                 </figure>
@@ -115,6 +117,7 @@ const Shop = () => {
                             <div className="column is-narrow">
                                 <figure className="image is-clickable is-128x128">
                                     <img
+                                        style={{ width: '120px', height: '120px' }}
                                         src="media/images/top-5.png"
                                         alt=""
                                         onClick={() => router.push('/shop/top-5')}

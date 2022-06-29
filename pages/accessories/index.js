@@ -17,23 +17,31 @@ const Accessoires = () => {
                         <div className="content is-large">
                             <h1 className="title has-font-roboto has-text-hgold">Accessoires</h1>
                             <hr className="has-text-hdarkred" />
-                            <div className="columns">
-                                <div className="column is-narrow">
-                                    <figure className="image is-clickable is-128x128">
+                            <div className="columns is-centered">
+                                <div className="column is-flex is-justify-content-center">
+                                    <figure className="image is-clickable">
                                         <img
-                                            src="media/images/accessory-pic-1.png"
+                                            style={{ width: '400px', height: '400px' }}
+                                            src="/media/images/accessory-pic-1.png"
                                             alt=""
                                             onClick={() => router.push('/accessories/accessory-1')}
                                         />
+                                        <figcaption className="has-font-footlight has-text-hdarkred has-text-centered">
+                                            <h1 className="title is-4 pt-4">Planche d&apos;accessoires</h1>
+                                        </figcaption>
                                     </figure>
                                 </div>
-                                <div className="column is-narrow">
-                                    <figure className="image is-clickable is-128x128">
+                                <div className="column is-flex is-justify-content-center">
+                                    <figure className="image is-clickable">
                                         <img
-                                            src="media/images/accessory-pic-2.png"
+                                            style={{ width: '400px', height: '400px' }}
+                                            src="/media/images/accessory-pic-2.png"
                                             alt=""
                                             onClick={() => router.push('/accessories/accessory-2')}
                                         />
+                                        <figcaption className="has-font-footlight has-text-hdarkred has-text-centered">
+                                            <h1 className="title is-4 pt-4">Accessoires</h1>
+                                        </figcaption>
                                     </figure>
                                 </div>
                             </div>

@@ -20,7 +20,7 @@ const Home = () => {
                             <li>Introduction sur l&apos;art nouveau</li>
                             <li>Introduction sur ma collection</li>
                             <li>Moodboard</li>
-                            <li>Inspiration</li>
+                            <li>Inspiration de mode</li>
                             <li>Détails de mode</li>
                             <li>Adn</li>
                             <li>Planche</li>
