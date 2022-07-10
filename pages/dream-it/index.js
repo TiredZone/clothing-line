@@ -11,7 +11,7 @@ const Défilé = () => {
                     <div className="columns is-centered">
                         <div className="column is-flex is-justify-content-center">
                             <figure className="image is-256x256">
-                                <img src="media/images/défilé-content.jpg" alt="" />
+                                <img src="media/images/défilé-content.jpeg" alt="" />
                             </figure>
                         </div>
                     </div>

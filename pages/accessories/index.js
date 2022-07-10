@@ -48,6 +48,19 @@ const Accessoires = () => {
                         </div>
                     </div>
                 </div>
+                <hr className="has-text-hdarkred" />
+                <div className="columns is-flex is-justify-content-center has-text-centered">
+                    <div className="column is-5 is-flex is-justify-content-center">
+                        <div className="box has-text-hdarkred has-font-footlight">
+                            <div className="content is-large">
+                                <p className="has-text-black is-italic">
+                                    To me, clothing is a form of self-expression. There are hints about who you are in
+                                    what you wear. ~Marc Jacobs
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     );
