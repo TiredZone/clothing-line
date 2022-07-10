@@ -21,7 +21,7 @@ const Accessoires = () => {
                                 <div className="column is-flex is-justify-content-center">
                                     <figure className="image is-clickable">
                                         <img
-                                            style={{ width: '400px', height: '400px' }}
+                                            style={{ width: '400px', height: '500px' }}
                                             src="/media/images/accessory-pic-1.png"
                                             alt=""
                                             onClick={() => router.push('/accessories/accessory-1')}
@@ -34,7 +34,7 @@ const Accessoires = () => {
                                 <div className="column is-flex is-justify-content-center">
                                     <figure className="image is-clickable">
                                         <img
-                                            style={{ width: '400px', height: '400px' }}
+                                            style={{ width: '400px', height: '500px' }}
                                             src="/media/images/accessory-pic-2.png"
                                             alt=""
                                             onClick={() => router.push('/accessories/accessory-2')}

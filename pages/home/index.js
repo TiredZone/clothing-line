@@ -182,6 +182,33 @@ const Home = () => {
                             </div>
                         </div>
                     </section>
+                    <hr className="is-hdarkred" style={{ marginRight: '-7rem', marginLeft: '-7rem' }} />
+                    <section className="section has-font-footlight" data-aos="fade-up">
+                        <div className="container">
+                            <div className="columns is-centered">
+                                <div className="column is-flex is-justify-content-center">
+                                    <figure className="image is-256x256 is-clickable">
+                                        <video
+                                            className="video-container has-border-radius-20"
+                                            autoPlay
+                                            loop
+                                            muted
+                                            playsInline
+                                            width="300"
+                                            type="video/mp4"
+                                            src="media/videos/realisation.mp4"
+                                            onClick={() => Router.push('/realisation')}
+                                        >
+                                            Your browser does not support the video tag.
+                                        </video>
+                                        <figcaption className="has-text-hdarkred has-text-centered">
+                                            <h1 className="title is-4 pt-4">Réalisation</h1>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </section>
         </div>
